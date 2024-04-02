@@ -1,6 +1,12 @@
 from flask import Flask
-app = Flask(__name__)
+import app
+from app import mnportal
 
-@app.route("/api/python")
+@mnportal.route("/api/python")
 def hello_world():
-    return "<p>Hello, World!</p>"
+    connection = app.model.get_db()
+    cur = connection.execute("SELECT * FROM users")
+
+    data = cur.fetchall()
+    return data
+    # return "<p>Hello, World!</p>"
