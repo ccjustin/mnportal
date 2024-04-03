@@ -1,6 +1,6 @@
 from flask import Flask
-import app
 from app import mnportal
+import app
 
 @mnportal.route("/api/python")
 def hello_world():

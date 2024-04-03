@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Urbanist:wght@700&display=swap');
+
+.footer {
+  background-color: #D8EEFE;
+  padding: 1rem;
+  width: 100%;
+  position: relative;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 80px;
+  margin-top: 3rem;
+}
+
+.logo {
+  font-size: 2em;
+  font-family: 'Urbanist', sans-serif; /* Use Urbanist font */
+  font-weight: 700;
+  line-height: 150%;
+  text-transform: uppercase;
+}
+.navList {
+  height: fit-content;
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  justify-content: flex-end; /* Align items to the right */
+}
+
+.navItem {
+  margin-left: 1rem; /* Adjusted margin */
+}
+
+.navLink {
+  padding: 10px 15px; /* Adjusted padding */
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  background: transparent;
+  outline: none !important;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  position: relative;
+  display: inline-block;
+}

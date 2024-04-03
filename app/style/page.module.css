@@ -1,0 +1,33 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #F5FBFF;
+}
+
+.displaySection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 2rem;
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.content {
+  padding-top: 115px;
+  padding-bottom: 25px;
+}
+
+.cardGrid {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: center; 
+  gap: 1.5rem; 
+  padding: 0 5rem 0 5rem;  
+  margin-bottom: 1rem;
+}
