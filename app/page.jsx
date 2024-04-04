@@ -1,10 +1,14 @@
+"use client";
+
 import styles from "./style/page.module.css";
 import Navbar from "@/components/navbar";
 import Card from "@/components/card";
 import Footer from "@/components/footer";
+import {NextUIProvider} from "@nextui-org/react";
 
 export default function Home() {
   return (
+    <NextUIProvider>
     <main className={styles.main}>
       <Navbar />
       <div className={styles.content}>
@@ -26,5 +30,6 @@ export default function Home() {
 
         <Footer />
     </main>
+    </NextUIProvider>
   );
 }

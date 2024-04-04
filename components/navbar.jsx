@@ -1,5 +1,8 @@
+"use client";
+
 import Link from 'next/link';
 import styles from '../app/style/navbar.module.css';
+
 import {
   Dropdown,
   DropdownTrigger,
@@ -16,15 +19,10 @@ const Navbar = () => {
         <span className={styles.logo}>MNPORTAL</span>
 
         <ul className={styles.navList}>
-          <li className={styles.navItem}>
-            <Link href="/" className= {styles.navLink}>
-              Home
-            </Link>
-          </li>
-          <li className={styles.navItem}>
+        <li className={styles.navItem}>
           <Dropdown>
             <DropdownTrigger>
-              <Button variant="bordered">Open Menu</Button>
+              <Button variant="solid">Menu</Button>
             </DropdownTrigger>
 
             <DropdownMenu aria-label="Link Actions">
@@ -37,6 +35,13 @@ const Navbar = () => {
               </DropdownItem>
             </DropdownMenu>
           </Dropdown>
+          </li>
+          <li className={styles.navItem}>
+            <Link href="/" className= {styles.navLink}>
+              Home
+            </Link>
+          </li>
+          <li className={styles.navItem}>
             <Link href="/documentation" className={styles.navLink}>
               Documentation
             </Link>
