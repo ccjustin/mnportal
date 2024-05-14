@@ -1,6 +1,6 @@
 ## Introduction
 
-MNPortal is an internal tool in development for Michigan Neuroprosthetics, an organization at the University of Michigan focused on developing affordable prosthetics for children. The most updated version can be seen at (https://github.com/MichiganNeuroProsthetics/)
+MNPortal is an internal tool in development for Michigan Neuroprosthetics, an organization at the University of Michigan focused on developing affordable prosthetics for children. The most updated version can be seen at https://github.com/MichiganNeuroProsthetics/MNPortal.
 
 This is baesd off of a boilerplate hybrid Next.js + Python app from Vercel that uses Next.js as the frontend and Flask as the API backend.
 
